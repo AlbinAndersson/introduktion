@@ -11,7 +11,7 @@ def repeat(string, num):
 
 def bouncer(items):
     """Tar bort alla värden i items (arg 1) som evalueras till False."""
-    result=[]
+    result = []
     for item in items:
         if item:
             result.append(item)
@@ -28,7 +28,7 @@ def rovarsprak(string):
     """
     rovarspraket = []
     for letter in string:
-        if letter =="ö" or "å" or "ä" or "a" or "i" or "e" or "o" or "i" or "y":
+        if letter == "ö" or "å"
             letter + ("o") + letter
             rovarspraket.append(string)
         return
@@ -54,6 +54,7 @@ def is_of_age(age):
     else:
         print(False)
         return result
+
 
 def vowel(character):
     """Returnerar true om 'character' är en vokal, annart false."""
