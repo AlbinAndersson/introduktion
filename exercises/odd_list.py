@@ -11,8 +11,8 @@ Alla docstrings har placerats före kodraderna som ska användas för problemet.
 """
 
 
-"""Givet en lista, returnera alla värden på udda positioner."""
 def odd_list(l):
+    """Givet en lista, returnera alla värden på udda positioner."""
     result = []
     index = 0
     for item in l:

@@ -26,7 +26,6 @@ def rovarsprak(string):
 
     `Wikipedia<https://sv.wikipedia.org/wiki/R%C3%B6varspr%C3%A5ket>`_
     """
-
     rovarspraket = []
     for letter in string:
         if letter =="ö" or "å" or "ä" or "a" or "i" or "e" or "o" or "i" or "y":
@@ -38,19 +37,16 @@ def rovarsprak(string):
 
 def area(width, height):
     """Returnerar arean av en figur med bredden 'width' och höjden 'height'."""
-
     return width * height
 
 
 def to_seconds(time):
     """Returnerar en float `time` (timmar) till sekunder."""
-
     return time * 3600
 
 
 def is_of_age(age):
     """Returnerar true om 'age' är större eller lika med 18, annars false."""
-
     result = []
     if age <= 18:
         print(True)
@@ -102,7 +98,7 @@ def travel_price(distance, consumtion, price):
     Resan är `distance` km lång, och görs med en bil som drar `consumption`
     liter bensin per mil då bensinen kostar `price` kr per liter.
     """
-    return (distance / 10) * price * consumtion 
+    return (distance / 10) * price * consumtion
 
 
 def character_frequency(words):
