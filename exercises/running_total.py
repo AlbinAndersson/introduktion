@@ -1,4 +1,4 @@
-"""Parsons programming-problem
+"""Parsons programming-problem.
 
 Instruktion
 ===========

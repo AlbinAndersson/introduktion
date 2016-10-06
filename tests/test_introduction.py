@@ -26,8 +26,7 @@ def test_rovarsprak():
 def test_area():
     assert area(20, 20) == 400
     assert area(23.5, 24.0) == 564
-
-
+    
 
 def test_to_seconds():
     assert to_seconds(5) == 18000
