@@ -26,13 +26,6 @@ def rovarsprak(string):
 
     `Wikipedia<https://sv.wikipedia.org/wiki/R%C3%B6varspr%C3%A5ket>`_
     """
-    rovarspraket = []
-    for letter in string:
-        if letter == "ö" or "å"
-            letter + ("o") + letter
-            rovarspraket.append(string)
-        return
-        rovarspraket.append(string)
 
 
 def area(width, height):
