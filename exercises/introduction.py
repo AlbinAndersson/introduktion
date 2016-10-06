@@ -6,11 +6,16 @@ def repeat(string, num):
 
     Returnerar en ny sträng eller en tom sträng om num är negativt.
     """
-    pass
+    return string * num
+
 
 def bouncer(items):
     """Tar bort alla värden i items (arg 1) som evalueras till False."""
-    pass
+    result=[]
+    for item in items:
+        if item:
+            result.append(item)
+    return result
 
 
 def rovarsprak(string):
@@ -21,23 +26,38 @@ def rovarsprak(string):
 
     `Wikipedia<https://sv.wikipedia.org/wiki/R%C3%B6varspr%C3%A5ket>`_
     """
-    pass
+
+    rovarspraket = []
+    for letter in string:
+        if letter =="ö" or "å" or "ä" or "a" or "i" or "e" or "o" or "i" or "y":
+            letter + ("o") + letter
+            rovarspraket.append(string)
+        return
+        rovarspraket.append(string)
 
 
 def area(width, height):
     """Returnerar arean av en figur med bredden 'width' och höjden 'height'."""
-    pass
+
+    return width * height
 
 
 def to_seconds(time):
     """Returnerar en float `time` (timmar) till sekunder."""
-    pass
+
+    return time * 3600
 
 
 def is_of_age(age):
     """Returnerar true om 'age' är större eller lika med 18, annars false."""
-    pass
 
+    result = []
+    if age <= 18:
+        print(True)
+        return result
+    else:
+        print(False)
+        return result
 
 def vowel(character):
     """Returnerar true om 'character' är en vokal, annart false."""
@@ -82,7 +102,7 @@ def travel_price(distance, consumtion, price):
     Resan är `distance` km lång, och görs med en bil som drar `consumption`
     liter bensin per mil då bensinen kostar `price` kr per liter.
     """
-    pass
+    return (distance / 10) * price * consumtion 
 
 
 def character_frequency(words):
